@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Employee.DataAccessLayer\Employee.DataAccessLayer.csproj" />
+    <ProjectReference Include="..\Employee.Interface\Employee.Interface.csproj" />
+  </ItemGroup>
+
+</Project>
